@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- White 3x3 Sudoku grid centered in safe zone (18-90) -->
+    <!-- Grid spans from 26 to 82 (56dp, centered) -->
+
+    <!-- Horizontal lines -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M26,26 L82,26 L82,28 L26,28 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M26,44.67 L82,44.67 L82,46.67 L26,46.67 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M26,61.33 L82,61.33 L82,63.33 L26,63.33 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M26,80 L82,80 L82,82 L26,82 Z"/>
+
+    <!-- Vertical lines -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M26,26 L28,26 L28,82 L26,82 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44.67,26 L46.67,26 L46.67,82 L44.67,82 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M61.33,26 L63.33,26 L63.33,82 L61.33,82 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M80,26 L82,26 L82,82 L80,82 Z"/>
+
+</vector>

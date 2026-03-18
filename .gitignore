@@ -1,0 +1,26 @@
+# Android
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+*.apk
+*.aab
+
+# Generated files
+puzzles_output.txt
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Nix
+result
+.direnv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.log
